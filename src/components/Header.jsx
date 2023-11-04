@@ -67,19 +67,19 @@ const Header = () => {
       </div>
       <div className="header-container">
         <div className="header-content">
-          <h1 className="header-title">Welcome to Eldorado</h1>
-          <h2 className="header-subtitle">The best Low Content Book Store ever!</h2>
+          <h1 className="header-title">Oportunidades Ilimitadas</h1>
+          <h2 className="header-subtitle">Mejorando el mundo digital un trabajo a la vez</h2>
         </div>
         <nav className="navbar-header">
           <ul className="nav-links">
             <li className="nav-link">
-              <Link to="/">Home</Link>
+              <Link to="/">Inicio</Link>
             </li>
             <li className="nav-link">
-              <Link to="/about">About</Link>
+              <Link to="/about">Acerca</Link>
             </li>
             <li className="nav-link">
-              <Link to="/store">Store</Link>
+              <Link to="/store">Tienda</Link>
             </li>
           </ul>
         </nav>

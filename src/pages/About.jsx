@@ -72,29 +72,29 @@ const Button = styled.a`
 
 const About = () => {
   return (
-    <AboutContainer>
-      <AboutImage src={Sparky} alt="Sparky moment" />
-      <Title>About Eldorado Book Store</Title>
-      <Subtitle>Be our guest</Subtitle>
-      <Description>
-        Welcome to Eldorado! Our mission is to inspire, educate, and entertain through a curated collection of puzzles, games, challenges, coloring books and more;  🧩
-      </Description><br />
-      <Description>
-      ✨🎮Dive into our virtual wonderland playground and explore a variety of mini-games designed by our talented team and suitable for all ages. 
-      </Description><br />
-      <Description>
-        Eldorado-Store is more than just a place to find low-content activity books. Connect with fellow puzzle lovers and immerse yourself in the magical world of brain teasers and creativity. 🧩✨
-      </Description><br />
-      <Description>
-      🎮📚Choose from a variety of content formats: Physical books, e-books, notebooks… and pick enjoyable activities anytime, anywhere. 
-      </Description><br />
-      <Description>
-        Join us on this adventure, where your imagination can soar and your problem-solving skills can flourish. Embark on extraordinary journeys through the captivating low-content books at Eldorado Book Store!📚🏠
-      </Description><br />
-      <ButtonContainer>
-        <Button href="/about-store">Learn more</Button>
-      </ButtonContainer>
-    </AboutContainer>
+<AboutContainer>
+  <AboutImage src={Sparky} alt="Momento Chispeante" />
+  <Title>Acerca de Oportunidades Ilimitadas</Title>
+  <Subtitle>Sé nuestro invitado</Subtitle>
+  <Description>
+    ¡Bienvenido a Oportunidades Ilimitadas! Nuestra misión es ofrecer servicios digitales de calidad, inspirar la creatividad, y proporcionar soluciones a través de una amplia gama de servicios remotos. 🚀
+</Description><br />
+<Description>
+    ✨🎮Explora nuestro mundo digital y disfruta de servicios a medida diseñados por nuestro equipo de expertos, adaptados para todas tus necesidades y preferencias.
+</Description><br />
+<Description>
+    Oportunidades Ilimitadas es mucho más que una agencia digital estándar. Conéctate con nosotros y sumérgete en un universo de innovación y creatividad. 🌐✨
+</Description><br />
+<Description>
+    📚📱Elige entre una amplia gama de formatos y servicios: desarrollo web, marketing digital, diseño gráfico... y accede a soluciones efectivas en cualquier momento y lugar.
+</Description><br />
+<Description>
+    Únete a nosotros en este emocionante viaje, donde tus proyectos pueden despegar y tus metas pueden alcanzarse. ¡Confía en Oportunidades Ilimitadas para un futuro digital exitoso! 💻🚀
+</Description><br />
+  <ButtonContainer>
+    <Button href="/about-store">Saber más</Button>
+  </ButtonContainer>
+</AboutContainer>
   );
 };
 

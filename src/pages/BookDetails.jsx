@@ -15,7 +15,7 @@ const BookDetails = () => {
 
   return (
     <div>
-      <h1>Time to be booky!</h1>
+      <h1>Es Tiempo de Leer!</h1>
       <h2>{book.title}</h2>
       <h3>{book.author}</h3>
       <p>{book.description}</p>
